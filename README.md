@@ -30,13 +30,13 @@ The components can be prefixed with a namespace to avoid the potential for colli
 
 > Do: The **prefix** has **2 or 3 letters**.
 
-CSS
+css
 ```css
 .clBox { … }
 
 .clButton { … }
 ```
-HTML
+html
 ```html
 <div class="clBox"> ... </div>
 
@@ -53,7 +53,7 @@ The Elements are things inside the components.
 
 > Do: Separated from the component by **one underscore**.
 
-PCSS / SCSS
+pcss / scss
 ```css
 .clBox {
   &_header { ... }
@@ -61,14 +61,14 @@ PCSS / SCSS
   &_footer { ... }
 }
 ```
-CSS
+css
 ```css
 .clBox { ... }
 .clBox_header { ... }
 .clBox_avatar { ... }
 .clBox_footer { ... }
 ```
-HTML
+html
 ```html
 <article class="clBox">
   <header class="clBox_header">...</header>
@@ -93,7 +93,7 @@ The variant modifies (overwrite) the style of the base component.
 
 > Avoid: Never set variants directly without being enclosed in a component.
 
-PCSS / SCSS
+pcss / scss
 ```css
 .clBox {
   background: blue;
@@ -113,7 +113,7 @@ PCSS / SCSS
   }
 }
 ```
-CSS
+css
 ```css
 .clBox {
   background: blue;
@@ -130,7 +130,7 @@ CSS
   cursor: default;
 }
 ```
-HTML
+html
 ```html
 <div class="clBox -light -small -disabled">...</button>
 ```
@@ -149,7 +149,7 @@ The utilities classes modifies (overwrite) the style of the any components or el
 
 > Do: Use directly in any element or component.
 
-CSS
+css
 ```css
 .-uTextC {
   text-align: center;
@@ -161,7 +161,7 @@ CSS
   margin-top: 10px;
 }
 ```
-HTML
+html
 ```html
 <div class="clBox -light -uTextC -uRight">...</button>
 ```
