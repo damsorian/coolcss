@@ -20,7 +20,7 @@ A Cool approach for CSS.
 
 ### <a name="naming">Components</a>
 
-> Syntax: `prefixComponent` | `damBox`
+> Syntax: `prefixComponent` | `clBox`
 
 You can think of Components as custom elements that enclose specific semantics, styling, and behaviour.
 
@@ -45,7 +45,7 @@ HTML
 
 ### <a name="elements">Elements</a>
 
-> Syntax: `prefixComponent_element` | `damBox_header`
+> Syntax: `prefixComponent_element` | `clBox_header`
 
 The Elements are things inside the components.
 
