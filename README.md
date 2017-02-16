@@ -10,6 +10,7 @@ A Cool approach for CSS.
     1. [Variants](#variants)
     1. [Utilities](#utilities)
 1. [Architecture](#architecture)
+1. [Tools](#tools)
 1. [References](#references)
 
 
@@ -174,6 +175,13 @@ HTML
 
 **component** folder
 - `component.css` | The style of a specific component (box.css, modal.css, ...).
+
+## <a name="tools">Tools</a>
+
+* [Stylelint](https://stylelint.io/) | To linting the code.
+* [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard) | The standard config for Stylelint
+* [PostCSS](http://postcss.org/) | To process the css with the superpowers of javascript. (Instead of sass/less)
+* [cssnext](http://cssnext.io/) | A PostCSS plugin to get the future of CSS. Review all [features](http://cssnext.io/features/)
 
 ## <a name="references">References</a>
 
