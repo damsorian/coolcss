@@ -1,0 +1,23 @@
+{
+  "name": "CoolCSS",
+  "version": "1.0.0",
+  "description": "A Cool approach for CSS",
+  "author": "Damsorian <damsorian@gmail.com>",
+  "keywords": [
+    "cool",
+    "css",
+    "code",
+    "style",
+    "guide",
+    "convention"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damsorian/CoolCSS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/damsorian/CoolCSS/issues"
+  },
+  "homepage": "https://github.com/damsorian/CoolCSS#readme"
+}
