@@ -16,7 +16,7 @@ A Cool approach for CSS.
 
 ## <a name="naming">Naming</a>
 
-> Syntax: `prefixComponent_element.-variant`
+> Syntax: `prefixComponent_element.-variant.-gGeneric`
 
 ### <a name="naming">Components</a>
 
