@@ -8,7 +8,7 @@ A Cool approach for CSS.
     1. [Components](#components)
     1. [Elements](#elements)
     1. [Variants](#variants)
-    1. [Generic](#generic)
+    1. [Generics](#generics)
 1. [Architecture](#architecture)
 1. [Tools](#tools)
 1. [References](#references)
@@ -135,7 +135,7 @@ html
 <div class="clBox -light -small -disabled">...</button>
 ```
 
-### <a name="generic">Generic</a>
+### <a name="generics">Generics</a>
 
 Syntax: `-gVariant` | `-gTextCenter`
 
