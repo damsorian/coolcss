@@ -8,7 +8,7 @@ A Cool approach for CSS.
     1. [Components](#components)
     1. [Elements](#elements)
     1. [Variants](#variants)
-    1. [Utilities](#utilities)
+    1. [Generic](#generic)
 1. [Architecture](#architecture)
 1. [Tools](#tools)
 1. [References](#references)
@@ -135,15 +135,15 @@ html
 <div class="clBox -light -small -disabled">...</button>
 ```
 
-### <a name="utilities">Utilities</a>
+### <a name="generic">Generic</a>
 
-Syntax: `-uVariant` | `-uTextCenter`
+Syntax: `-gVariant` | `-gTextCenter`
 
 The utilities classes modifies (overwrite) the style of the any components or elements.
 
 > Do: Use **camel case**.
 
-> Do: Prefixed with **one hyphen** and the **u** letter.
+> Do: Prefixed with **one hyphen** and the **g** letter.
 
 > Do: Set globally below the default styles.
 
@@ -151,19 +151,19 @@ The utilities classes modifies (overwrite) the style of the any components or el
 
 css
 ```css
-.-uTextC {
+.-gTextCenter {
   text-align: center;
 }
-.-uRight {
+.-gRight {
   float: right;
 }
-.-uMarginT10 {
+.-gMarginT10 {
   margin-top: 10px;
 }
 ```
 html
 ```html
-<div class="clBox -light -uTextC -uRight">...</button>
+<div class="clBox -light -gTextC -gRight">...</button>
 ```
 ## <a name="architecture">Architecture</a>
 
@@ -171,7 +171,7 @@ html
 - `var.css` | Global variables (colors, sizes, fonts, ...).
 - `base.css` | Global elements overwriting (html, body, a, p, ...).
 - `theme.css` | Global theme or framework **overwriting** (bootstrap, materialize, etc) (.btn, .modal, ...).
-- `utils.css` | Global utility classes (-uTextC, -uRight, ...).
+- `generic.css` | Global generic classes (-gTextCenter, -gRight, ...).
 
 **component** folder
 - `component.css` | The style of a specific component (box.css, modal.css, ...).
